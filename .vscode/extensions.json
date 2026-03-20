@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "vscjava.vscode-java-pack",
+    "fwcd.kotlin",
+    "ms-python.python",
+    "ms-python.vscode-pylance",
+    "Vue.volar",
+    "EditorConfig.EditorConfig"
+  ]
+}
