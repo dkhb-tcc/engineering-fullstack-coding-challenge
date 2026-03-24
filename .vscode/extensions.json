@@ -1,6 +1,7 @@
 {
   "recommendations": [
     "vscjava.vscode-java-pack",
+    "vscjava.vscode-gradle",
     "fwcd.kotlin",
     "ms-python.python",
     "ms-python.vscode-pylance",
