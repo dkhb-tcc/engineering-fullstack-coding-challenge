@@ -10,6 +10,7 @@ Thumbs.db
 # Backend
 backend/.gradle/
 backend/build/
+backend/bin/
 backend/out/
 backend/.kotlin/
 backend/*.iml
