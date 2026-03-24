@@ -1,0 +1,23 @@
+{
+  "java.import.gradle.enabled": true,
+  "java.import.gradle.wrapper.enabled": true,
+  "java.gradle.buildServer.enabled": "off",
+  "java.import.gradle.java.home": "/usr/local/sdkman/candidates/java/current",
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-21",
+      "path": "/usr/local/sdkman/candidates/java/current",
+      "default": true
+    }
+  ],
+  "java.compile.nullAnalysis.mode": "disabled",
+  "java.import.exclusions": [
+    "**/node_modules/**",
+    "**/.metadata/**",
+    "**/archetype-resources/**",
+    "**/META-INF/maven/**",
+    "frontend/**",
+    "patient-service/**"
+  ],
+  "gradle.nestedProjects": true
+}
