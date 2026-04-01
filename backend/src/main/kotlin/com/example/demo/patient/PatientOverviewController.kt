@@ -17,8 +17,8 @@ class PatientOverviewController(
         val info = patientClient.getPatient(patientId)
         return PatientOverview(
             patientId = patientId,
-            firstName = info.lastName,
-            lastName = info.firstName,
+            firstName = info.firstName,
+            lastName = info.lastName,
             dateOfBirth = info.dateOfBirth,
             latestVitalSign = vitalSignService.getLatest(),
         )

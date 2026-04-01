@@ -17,7 +17,7 @@ class VitalSignService(private val dsl: DSLContext) {
     fun getLatest(): VitalSign = dsl
         .select(F_ID, F_MEASURED_AT, F_HEART_RATE)
         .from(TABLE)
-        .orderBy(F_MEASURED_AT.asc())
+        .orderBy(F_MEASURED_AT.desc())
         .limit(1)
         .fetchOne { VitalSign(it[F_ID]!!, it[F_MEASURED_AT]!!, it[F_HEART_RATE]!!) }!!
 }
