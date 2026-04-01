@@ -27,8 +27,8 @@ Spring Boot / Kotlin (:8080)
 
 | Branch | Purpose |
 |---|---|
-| `main` | Clean baseline — no patient overview feature yet |
-| `challenge/patient-overview-pr` | PR that adds the patient overview feature, containing three intentional bugs |
+| `main` | Clean, fully working reference implementation |
+| `challenge/patient-overview-pr` | PR with three intentional bugs for the interview |
 
 ## Quick Start (Interviewer)
 
